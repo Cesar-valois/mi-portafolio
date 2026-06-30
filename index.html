@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tu Nombre | Desarrollador Front-End</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">Elias.dev</a>
+        <ul class="nav-links">
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button id="theme-toggle">🌙</button>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Hola, soy <span>Tu Nombre</span></h1>
+        <p>
+          Desarrollador apasionado por crear interfaces rápidas y atractivas.
+        </p>
+        <a href="#proyectos" class="btn-primary">Ver Proyectos</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre Mí</h2>
+      <p>
+        Tengo experiencia construyendo aplicaciones web modernas utilizando
+        HTML5, CSS3, JavaScript y frameworks como React. Me enfoco en escribir
+        código limpio y mejorar la experiencia de usuario.
+      </p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos Destacados</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Nombre del Proyecto</h3>
+          <p>
+            Breve descripción de lo que hace el proyecto y las tecnologías
+            utilizadas.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Código</a>
+            <a href="#" target="_blank">Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Tu Nombre" required />
+        <input type="email" placeholder="Tu Correo Electrónico" required />
+        <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+        <button type="submit" class="btn-primary">Enviar Mensaje</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
